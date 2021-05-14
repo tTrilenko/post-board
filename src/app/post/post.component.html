@@ -1,0 +1,13 @@
+﻿<div class="card-body line-clamp">
+  <button (click)="onDeletePost()" type="button" class="close" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div (click)="onSelectPost()" class="card-body">
+    <h5 class="card-title">
+      {{ post.author }}
+    </h5>
+    <p class="card-text">
+      {{ post.description }}
+    </p>
+  </div>
+</div>
